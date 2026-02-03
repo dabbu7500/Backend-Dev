@@ -1,6 +1,6 @@
 const express=require('express');
 const app=express();
-
+app.use
 app.get('/',(req,res)=>{
         res.send("home page ");
 });
@@ -14,7 +14,7 @@ app.get("/attendence",(res,req)=>{
         res.send(req.query.name+"is Absent");
     }
 });
-const port=5000;
+const port=8000;
 app.listen(port,()=>{
     console.log(`server started at port ${port}`);
 });
