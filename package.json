@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dabbu7500/Backend-Dev#readme",
   "dependencies": {
     "cors": "^2.8.6",
+    "ejs": "^4.0.1",
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
   }
